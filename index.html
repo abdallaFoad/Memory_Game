@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel='stylesheet' href='css/style.css'/>
+        <title>Memory Game</title>
+    </head>
+    <body>
+       <div class="container">
+            <div class='control-button'>
+                <span>Start Game</span>
+            </div>
+            
+            <div class='info-container'>
+                <div class='name'>
+                    name : <span></span>
+                </div>
+                <div class='tries'>
+                    Worng Tries : <span>0</span>
+                </div>
+            </div>
+            
+            <div class='memory-game-blocks' id='memory-game-blocks'>
+            
+                <div class='game-block' data-tech='angular'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/1.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='angular'>
+                    <div class='face front'></div>
+                    <div class='face back is-flipped'>
+                        <img src='images/1.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='vuejs'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/2.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='vuejs'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/2.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='css3'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/3.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='css3'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/3.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='github'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/4.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='github'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/4.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='glupjs'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/5.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='glupjs'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/5.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='html5'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/6.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='html5'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/6.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='jest'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/7.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='jest'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/7.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='mongodb'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/8.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='mongodb'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/8.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='python'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/9.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='python'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/9.jpg' alt="" />
+                    </div>
+                </div>
+            
+                <div class='game-block' data-tech='react'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/10.jpg' alt="" />
+                    </div>
+                </div>
+                <div class='game-block' data-tech='react'>
+                    <div class='face front'></div>
+                    <div class='face back'>
+                        <img src='images/10.jpg' alt="" />
+                    </div>
+                </div>
+            </div>
+            
+            <audio id='fail' src='audio/fail.mp3' preload='auto'></audio>
+            <audio id='success' src='audio/success.mp3' preload='auto'></audio>
+
+       </div>
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
